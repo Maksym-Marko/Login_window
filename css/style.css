@@ -68,7 +68,7 @@
   text-align: center;
   position: absolute;
   z-index: 99;
-  /*display: none;*/ }
+  display: none; }
 
 .DialTriangle {
   width: 30px;
@@ -79,6 +79,6 @@
   background-repeat: no-repeat;
   z-index: 99;
   position: absolute;
-  /*display: none;*/ }
+  display: none; }
 
 /*# sourceMappingURL=style.css.map */

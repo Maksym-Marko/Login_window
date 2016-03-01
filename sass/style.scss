@@ -1,3 +1,4 @@
+$color_winrow: #e97f07;
 .log_wrap{
 	width: 400px;
 	display: block;
@@ -5,7 +6,7 @@
 }
 .SpCklick{
 	display: block;
-	color: #e97f07;
+	color: $color_winrow;
 	margin-left: 50px;
 	font-size: 20px;
 	font-weight: bold;
@@ -17,7 +18,7 @@
 	font-size: 20px;
 	text-align: center;
 	margin-top: 30px;
-	border: 4px solid #e97f07;
+	border: 4px solid $color_winrow;
 	border-radius: 10px;
 	-moz-border-radius: 10px;
  	-webkit-border-radius: 10px;
@@ -27,26 +28,26 @@
 	margin-top: 40px;
 }
 ::-webkit-input-placeholder{
-	color: #e97f07;
+	color: $color_winrow;
 	text-align: center;
 }
 ::-moz-placeholder{
-	color: #e97f07;
+	color: $color_winrow;
 }
 :-moz-placeholder{
-	color: #e97f07;
+	color: $color_winrow;
 }
 :-ms-input-placeholder{
-	color: #e97f07;
+	color: $color_winrow;
 }
 :-o-input-placeholder{
-	color: #e97f07;
+	color: $color_winrow;
 }
 .inInputGo{
 	border: none;
 	background-color: #fff;
 	text-decoration: underline;
-	color: #e97f07;
+	color: $color_winrow;
 	font-size: 20px;
 	font-weight: bold;
 	margin-top: 25px;
@@ -59,7 +60,7 @@
 	height: 260px;
 	top: 50px;
 	background-color: #fff;	
-	border: 4px solid #e97f07;
+	border: 4px solid $color_winrow;
 	-moz-border-radius: 10px;
  	-webkit-border-radius: 10px;
   	-khtml-border-radius: 10px;
@@ -68,7 +69,7 @@
 	text-align: center;
 	position: absolute;
 	z-index: 99;
-	/*display: none;*/
+	display: none;
 }
 .DialTriangle{
 	width: 30px;
@@ -79,5 +80,5 @@
 	background-repeat: no-repeat;
 	z-index: 99;	
 	position: absolute;
-	/*display: none;*/
+	display: none;
 }
