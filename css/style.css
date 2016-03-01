@@ -1,0 +1,84 @@
+.log_wrap {
+  width: 400px;
+  display: block;
+  margin: 0px auto; }
+
+.SpCklick {
+  display: block;
+  color: #e97f07;
+  margin-left: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer; }
+
+.inInput {
+  width: 330px;
+  height: 50px;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 30px;
+  border: 4px solid #e97f07;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -khtml-border-radius: 10px; }
+
+.inInput:first-child {
+  margin-top: 40px; }
+
+::-webkit-input-placeholder {
+  color: #e97f07;
+  text-align: center; }
+
+::-moz-placeholder {
+  color: #e97f07; }
+
+:-moz-placeholder {
+  color: #e97f07; }
+
+:-ms-input-placeholder {
+  color: #e97f07; }
+
+:-o-input-placeholder {
+  color: #e97f07; }
+
+.inInputGo {
+  border: none;
+  background-color: #fff;
+  text-decoration: underline;
+  color: #e97f07;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 25px; }
+
+.inInputGo:hover {
+  text-decoration: none; }
+
+.DialogWind {
+  width: 506px;
+  height: 260px;
+  top: 50px;
+  background-color: #fff;
+  border: 4px solid #e97f07;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  border-radius: 10px;
+  behavior: url(border-radius.htc);
+  text-align: center;
+  position: absolute;
+  z-index: 99;
+  /*display: none;*/ }
+
+.DialTriangle {
+  width: 30px;
+  height: 30px;
+  top: -24px;
+  left: 50px;
+  background-image: url(../img/triangle.png);
+  background-repeat: no-repeat;
+  z-index: 99;
+  position: absolute;
+  /*display: none;*/ }
+
+/*# sourceMappingURL=style.css.map */
